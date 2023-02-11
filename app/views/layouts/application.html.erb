@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SampleApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <div class="content">
+		<div id="top">
+			<div class="topright">
+			 	<a href="#"><img src="assets/sitemap.png" alt="Sitemap" /></a> ^ 
+			 	<a href="#"><img src="assets/rss.png" alt="RSS" /></a>				
+			</div>
+		</div>
+		<div id="header">
+			
+			<div class="headings">
+				<h1>student app</h1>
+				<h2>design</h2>
+			</div>
+		</div>
+	
+			<div id="menu">
+			  	
+			</div>	
+      <%= yield %>
+			
+		
+		
+					
+				</div>
+			</div>
+			
+
+			</div>
+			
+		</div>
+		
+    
+  </body>
+</html>
